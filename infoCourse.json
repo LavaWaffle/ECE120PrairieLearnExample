@@ -1,0 +1,32 @@
+{
+    "uuid": "228b9016-cbf0-4d83-a8eb-40cc6faf0836",
+    "name": "ECE 120 - Anand",
+    "title": "Intro to Digital Logic :D",
+    "assessmentSets": [
+        {
+            "abbreviation": "G",
+            "name": "Gallery",
+            "heading": "Gallery of questions using different PrairieLearn elements",
+            "color": "orange1",
+            "description": "Gallery of PL questions"
+        }
+    ],
+    "options": {
+        "useNewQuestionRenderer": true
+    },
+    "topics": [
+        {
+            "name": "Gallery",
+            "color": "orange1",
+            "description": "Gallery of PL questions"
+        }
+    ],
+    "tags": [
+        {
+            "name": "parab3@illinois.edu",
+            "color": "gray1",
+            "description": "Author of the original question"
+        }
+    ],
+    "timezone": "America/Chicago"
+}
