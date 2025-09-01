@@ -1,7 +1,7 @@
 {
   "uuid": "f245b152-d69f-4505-96f4-9fd7de92caab",
-  "title": "Converting between Base 2 and 10 in C",
-  "topic": "Bases 2 and 10",
+  "title": "Converting from Base 2 to 10 in C",
+  "topic": "Base 2 to 10",
   "singleVariant": true,
   "tags": ["C-Bases"],
   "type": "v3",

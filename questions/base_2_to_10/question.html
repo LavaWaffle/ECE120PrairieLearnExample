@@ -1,0 +1,47 @@
+<pl-question-panel>
+  <p>
+    In ECE 120 we often convert between base 2 and base 10 by hand. However,
+    computers do this conversion all the time. Write a program that converts a
+    number in base 2 to base 10.
+  </p>
+
+  <p>The program will read one input.</p>
+  <ol>
+    <li>The unsigned integer N in base 2</li>
+  </ol>
+  <p>The program expects one output: The integer N in base 10.</p>
+
+  <p><b>Note: </b> N will be between 0 (0) and 63 (111111 in base 2).</p>
+
+
+  <hr />
+
+  <p>
+    Example input/output: 
+    <ul>
+      <li>Input: <code>101</code></li>
+      <li>Output: <code>5</code></li>
+    </ul>
+    Converting 101 to base 10 gives 5.
+  </p>
+
+  <p>
+    Example input/output: 
+    <ul>
+      <li>Input: <code>1101</code></li>
+      <li>Output: <code>13</code></li>
+    </ul>
+    Converting 1101 to base 10 gives 13.
+  </p>
+
+  <p><b>Hint 1:</b> <code>2^x</code> is the same as <code>1 << x</code></p>
+  <p><b>Hint 2:</b> <code>N % 10</code> gives the last digit in base 2</p>
+  <p><b>Hint 3:</b> <code>N /= 10</code> removes the last digit of N in base 2</p>
+
+  <pl-workspace></pl-workspace>
+</pl-question-panel>
+
+<pl-submission-panel>
+  <pl-external-grader-results></pl-external-grader-results>
+  <pl-file-preview></pl-file-preview>
+</pl-submission-panel>
