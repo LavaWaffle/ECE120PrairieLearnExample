@@ -4,16 +4,5 @@
   "title": "Anand Testing",
   "set": "Gallery",
   "number": "1",
-  "allowAccess": [],
-  "zones": [
-    {
-      "title": "Current PL Order Blocks",
-      "questions": [
-        { "id": "Gallery/mathEquation", "points": 1 },
-        { "id": "Gallery/0Eq", "points": 1 },
-        { "id": "Gallery/badInput", "points": 1 },
-        { "id": "Gallery/shm", "points": 1 }
-      ]
-    }
-  ]
+  "allowAccess": []
 }
