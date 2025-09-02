@@ -1,0 +1,17 @@
+{
+  "uuid": "6d39491f-8ac1-4148-9dcb-3db365b1c04a",
+  "type": "Homework",
+  "title": "ECE 120 MT1 Above and Beyond Questions",
+  "set": "Gallery",
+  "number": "1",
+  "allowAccess": [],
+  "zones": [
+    {
+      "title": "Above and Beyond",
+      "questions": [
+        { "id": "base_2_to_10", "points": 1 },
+        { "id": "base_10_to_2", "points": 1 }
+      ]
+    }
+  ]
+}
