@@ -1,0 +1,20 @@
+{
+  "uuid": "f245b152-d69f-4505-96f4-9fd1de92caab",
+  "title": "Adding 0.1 + 0.2 in C",
+  "topic": "Floating Point Arithmetic",
+  "singleVariant": true,
+  "tags": ["C-FloatingPoint"],
+  "type": "v3",
+  "workspaceOptions": {
+    "image": "prairielearn/workspace-vscode-cpp",
+    "port": 8080,
+    "home": "/home/coder/workspace",
+    "gradedFiles": ["starter_code.c"]
+  },
+  "gradingMethod": "External",
+  "externalGradingOptions": {
+    "enabled": true,
+    "image": "prairielearn/grader-c",
+    "timeout": 5
+  }
+}

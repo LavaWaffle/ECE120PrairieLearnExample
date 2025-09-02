@@ -1,0 +1,68 @@
+<pl-question-panel>
+  <p>
+    In Programming, we often work with floating point numbers to perform
+    advanced calculations. However we should be careful of their limitations. In
+    the program below,
+  </p>
+
+  <p>
+    The current program will print 1 if 0.1 + 0.2 is equal to 0.3, and 0
+    otherwise. 
+  </p>
+  <p>
+    Make a prediction on what will happen and then come back here to
+    <b>check your answer</b>.
+  </p>
+
+  <p>To run this program...
+    <ol>
+      <li>Press <code>ctrl</code> + <code>~</code></li>
+      <li>Type <code>gcc starter_code.c -o starter_code -lm</code></li>
+      <li>Type <code>./starter_code</code></li>
+    </ol>
+  <pl-workspace></pl-workspace>
+
+  <hr />
+
+  <pl-hidden-hints>
+    <pl-hint hint-name="Check your Answer">
+      <p>
+        When you run the program, you might expect it to print 1, indicating that
+        0.1 + 0.2 is equal to 0.3. However, due to the way floating point arithmetic
+        works in computers, the result is 0.
+      </p>
+      <p>
+        The program prints 0 because the sum of 0.1 and 0.2
+        cannot be represented exactly as a binary floating point number.
+      </p>
+      <p>
+        To see why this is, modify the main function to this: (ignore all the compile errors!)
+        <pl-code language="C">
+double one = 0.1;
+double two = 0.2;
+print_binary(".1", one);
+print_binary(".2", two);
+
+double three = 0.3;
+double one_plus_two = one + two;
+
+print_binary(".1 + .2:", one_plus_two);
+print_binary(".3", three);
+
+return 0;
+          </pl-code>
+      </p>
+      <p>
+        Run the program again and observe the output. We can see 0.1, 0.2, 0.1 + 0.2, and 0.3 in floating point binary. Notice how 0.1 + 0.2 mantissa is just every so slightly larger than 0.3 mantissa. This is why 0.1 + 0.2 != 0.3
+      </p>
+      <p>
+        Minor floating point errors like this can lead to significant issues in big programs. Thus it is important to be aware of these limitations!
+      </p>
+    </pl-hint>
+  </pl-hidden-hints>
+</pl-question-panel>
+
+<pl-submission-panel>
+  <pl-external-grader-results></pl-external-grader-results>
+  <pl-file-preview></pl-file-preview>
+</pl-submission-panel>
