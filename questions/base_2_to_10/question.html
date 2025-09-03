@@ -1,7 +1,7 @@
 <pl-question-panel>
   <p>
-    In ECE 120 we often convert between base 2 and base 10 by hand. However,
-    computers do this conversion all the time. Write a program that converts a
+    In ECE 120 we often convert from base 2 to base 10 by hand. However,
+    computers do this conversion all the time. Lets write a program that converts a
     number in base 2 to base 10.
   </p>
 
@@ -11,7 +11,7 @@
   </ol>
   <p>The program expects one output: The integer N in base 10.</p>
 
-  <p><b>Note: </b> N will be between 0 (0) and 111111 (63 in base 10). N will always only contain 0s and 1s. N will always have 6 bits.</p>
+  <p><b>Constraints: </b> N will be between $000000_2$ ($0_{10}$) and $111111_2$ ($63_{10}$). N will always only contain 0s and 1s. N will always have 6 bits.</p>
 
 
   <hr />
@@ -22,7 +22,7 @@
       <li>Input: <code>000101</code></li>
       <li>Output: <code>5</code></li>
     </ul>
-    Converting 000101 to base 10 gives 5.
+    Converting $000101_2$ to base 10 gives $5_{10}$.
   </p>
 
   <p>
@@ -31,7 +31,7 @@
       <li>Input: <code>001101</code></li>
       <li>Output: <code>13</code></li>
     </ul>
-    Converting 001101 to base 10 gives 13.
+    Converting $001101_2$ to base 10 gives $13_{10}$.
   </p>
 
   <pl-hidden-hints>
@@ -40,7 +40,7 @@
     </pl-hint>
 
     <pl-hint>
-      <code>power = power >> 1</code> shifts the power variable right by 1 (dividing by 2)
+      <code>power = power >> 1</code> divides the power variable by 2. (Example: if power is 32, it becomes 16)
     </pl-hint>
   </pl-hidden-hints>
 
