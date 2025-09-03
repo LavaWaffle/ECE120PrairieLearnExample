@@ -10,7 +10,7 @@ class QuestionGrader(cgrader.CGrader):
         )
         self.test_run(
             "./starter_code",
-            input="101\n",
+            input="000101\n",
             exp_output=[
                 "5"
             ],
@@ -19,7 +19,7 @@ class QuestionGrader(cgrader.CGrader):
         )
         self.test_run(
             "./starter_code",
-            input="1101\n",
+            input="001101\n",
             exp_output=[
                 "13"
             ],
@@ -28,7 +28,7 @@ class QuestionGrader(cgrader.CGrader):
         )
         self.test_run(
             "./starter_code",
-            input="11111\n",
+            input="011111\n",
             exp_output=[
                 "31"
             ],
