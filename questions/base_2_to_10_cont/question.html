@@ -1,0 +1,48 @@
+<pl-question-panel>
+  <p>
+    Write a program that converts from base 2 to base 10. The input is going to be of length L.
+  </p>
+
+  <p>The program will read two inputs .</p>
+  <ol>
+    <li>The unsigned integer L: the length of N</li>
+    <li>The unsigned integer N in base 2</li>
+  </ol>
+  <p>The program expects one output: The integer N in base 10.</p>
+
+  <p><b>Constraints: N will always be of length L. L will be between $1_{10}$ and $16_{10}$.</p>
+
+  <hr />
+
+  <p>
+    Example input/output: 
+    <ul>
+      <li>Input: <code>10 0000000101</code></li>
+      <li>Output: <code>5</code></li>
+    </ul>
+    Converting $0000000101_2$ to base 10 gives $5_{10}$.
+  </p>
+
+  <p>
+    Example input/output: 
+    <ul>
+      <li>Input: <code>4 1101</code></li>
+      <li>Output: <code>13</code></li>
+    </ul>
+    Converting $0000001101_2$ to base 10 gives $13_{10}$.
+  </p>
+
+  <pl-hidden-hints>
+    <pl-hint>
+      <code>1 << (L - 1)</code> is equivalent to 2 ^ (L - 1) (aka the value of the MSB in a L bit number)
+    </pl-hint>
+  </pl-hidden-hints>
+
+  <pl-workspace></pl-workspace>
+</pl-question-panel>
+
+<pl-submission-panel>
+  <pl-external-grader-results></pl-external-grader-results>
+  <pl-file-preview></pl-file-preview>
+</pl-submission-panel>
+</pl-submission-panel>
