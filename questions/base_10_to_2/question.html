@@ -9,7 +9,8 @@
   </ol>
   <p>The program expects one output: The integer N in base 2.</p>
 
-  <p><b>Note: </b> N will be between 0 (0 in base 2) and 63 (111111 in base 2).</p>
+  <p><b>Constraint 1: </b> N will be between $0_{10}$ ($0_{2}$) and $63_{10}$ ($111111_{2}$).</p>
+  <p><b>Constraint 2: </b> Your output must always have 6 bits.</p>
 
 
   <hr />
@@ -18,18 +19,18 @@
     Example input/output: 
     <ul>
       <li>Input: <code>5</code></li>
-      <li>Output: <code>101</code></li>
+      <li>Output: <code>000101</code></li>
     </ul>
-    Converting 5 to base 2 gives 101.
+    Converting $5_{10}$ to base 2 gives $000101_{2}$.
   </p>
 
   <p>
     Example input/output: 
     <ul>
       <li>Input: <code>10</code></li>
-      <li>Output: <code>1010</code></li>
+      <li>Output: <code>001010</code></li>
     </ul>
-    Converting 10 to base 2 gives 1010.
+    Converting $10_{10}$ to base 2 gives $001010_{2}$.
   </p>
 
   <p>
@@ -38,7 +39,7 @@
       <li>Input: <code>32</code></li>
       <li>Output: <code>100000</code></li>
     </ul>
-    Converting 32 to base 2 gives 100000.
+    Converting $32_{10}$ to base 2 gives $100000_{2}$.
   </p>
 
    <p>
@@ -47,9 +48,14 @@
       <li>Input: <code>63</code></li>
       <li>Output: <code>111111</code></li>
     </ul>
-    Converting 63 to base 2 gives 111111.
+    Converting $63_{10}$ to base 2 gives $111111_{2}$.
   </p>
 
+  <pl-hidden-hints>
+    <pl-hint>
+      When converting to base 2, we can do the "will it fit" method. We begin by seeing if the number is bigger than the 32 (because we know that 0 < N < 64. Thus the highest bit is the 6th bit: 2^5 = 32). If it is output a 1. Else output a 0.
+    </pl-hint>
+  </pl-hidden-hints>
   <pl-workspace></pl-workspace>
 </pl-question-panel>
 

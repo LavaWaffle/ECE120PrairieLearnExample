@@ -12,7 +12,7 @@ class QuestionGrader(cgrader.CGrader):
             "./starter_code",
             input="5\n",
             exp_output=[
-                "101"
+                "000101"
             ],
             must_match_all_outputs="all",
             highlight_matches=True
@@ -21,7 +21,7 @@ class QuestionGrader(cgrader.CGrader):
             "./starter_code",
             input="10\n",
             exp_output=[
-                "1010"
+                "001010"
             ],
             must_match_all_outputs="all",
             highlight_matches=True
