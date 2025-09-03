@@ -11,7 +11,7 @@
   </ol>
   <p>The program expects one output: The integer N in base 10.</p>
 
-  <p><b>Note: </b> N will be between 0 (0) and 111111 (63 in base 10).</p>
+  <p><b>Note: </b> N will be between 0 (0) and 111111 (63 in base 10). N will always only contain 0s and 1s.</p>
 
 
   <hr />
@@ -34,9 +34,23 @@
     Converting 1101 to base 10 gives 13.
   </p>
 
-  <p><b>Hint 1:</b> <code>2^x</code> is the same as <code>1 << x</code></p>
-  <p><b>Hint 2:</b> <code>N % 10</code> gives the last digit in base 2</p>
-  <p><b>Hint 3:</b> <code>N /= 10</code> removes the last digit of N in base 2</p>
+  <pl-hidden-hints>
+    <pl-hint>
+      <code>2^x</code> is the same as <code>1 << x</code>
+    </pl-hint>
+    
+    <pl-hint>
+      <code>N % 10</code> gives the last digit in base 2
+      <br>
+      Ex: 101 % 10 = 1
+      <br>
+      Ex: 1100 % 10 = 0
+    </pl-hint>
+
+    <pl-hint>
+      <code>N /= 10</code> removes the last digit of N in base 2
+    </pl-hint>
+  </pl-hidden-hints>
 
   <pl-workspace></pl-workspace>
 </pl-question-panel>
@@ -44,4 +58,5 @@
 <pl-submission-panel>
   <pl-external-grader-results></pl-external-grader-results>
   <pl-file-preview></pl-file-preview>
+</pl-submission-panel>
 </pl-submission-panel>
