@@ -1,0 +1,20 @@
+{
+  "uuid": "f245b152-d69f-4505-96f4-9fd75e92caab",
+  "title": "Converting from Base 2 to 16 in C",
+  "topic": "Base 2 to 16",
+  "singleVariant": true,
+  "tags": ["C-Bases"],
+  "type": "v3",
+  "workspaceOptions": {
+    "image": "prairielearn/workspace-vscode-cpp",
+    "port": 8080,
+    "home": "/home/coder/workspace",
+    "gradedFiles": ["starter_code.c"]
+  },
+  "gradingMethod": "External",
+  "externalGradingOptions": {
+    "enabled": true,
+    "image": "prairielearn/grader-c",
+    "timeout": 5
+  }
+}

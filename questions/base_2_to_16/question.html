@@ -1,0 +1,48 @@
+<pl-question-panel>
+  <p>
+    Write a program that converts from base 2 to base 16
+  </p>
+
+  <p>The program will read one input.</p>
+  <ol>
+    <li>The unsigned integer N in base 2</li>
+  </ol>
+  <p>The program expects one output: The integer N in base 16.</p>
+
+  <p><b>Constraints: </b> N will be between $00000000_2$ ($0_{16}$) and $11111111_2$ ($FF_{16}$). N will always only contain 0s and 1s. N will always have 8 bits.</p>
+
+
+  <hr />
+
+  <p>
+    Example input/output: 
+    <ul>
+      <li>Input: <code>00000101</code></li>
+      <li>Output: <code>05</code></li>
+    </ul>
+    Converting $00000101_2$ to base 16 gives $05_{16}$.
+  </p>
+
+  <p>
+    Example input/output: 
+    <ul>
+      <li>Input: <code>00001101</code></li>
+      <li>Output: <code>0D</code></li>
+    </ul>
+    Converting $00001101_2$ to base 16 gives $0D_{16}$.
+  </p>
+
+  <pl-hidden-hints>
+    <pl-hint>
+      The <code>%X</code> format specifier prints the hexadecimal representation of an integer.
+    </pl-hint>
+  </pl-hidden-hints>
+
+  <pl-workspace></pl-workspace>
+</pl-question-panel>
+
+<pl-submission-panel>
+  <pl-external-grader-results></pl-external-grader-results>
+  <pl-file-preview></pl-file-preview>
+</pl-submission-panel>
+</pl-submission-panel>

@@ -10,6 +10,7 @@
       "title": "Above and Beyond",
       "questions": [
         { "id": "base_2_to_10", "points": 1 },
+        { "id": "base_2_to_16", "points": 1 },
         { "id": "base_10_to_2", "points": 1 },
         { "id": "fp_math", "points": 1 }
       ]
