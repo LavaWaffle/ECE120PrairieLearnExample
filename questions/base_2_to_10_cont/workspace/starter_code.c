@@ -3,11 +3,13 @@
 // Convert from base 2 to base 10
 int main() {
     int L;
-    scanf("%d", &L);
-    
+    int garbage;
+    scanf("%d%c", &L, &garbage);
+
+    int power = ...; // Your code here!
     int result = 0;
 
-    while (1) {
+    while (power > 0) {
         char nextBit;
         scanf("%c", &nextBit);
 
